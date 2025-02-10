@@ -7,7 +7,7 @@ export default function WhyVasto () {
       <div className={styles.container} >
         <div>
             <div>
-                <h5>Why <Image ></Image> ?</h5>
+                <h5>Why <Image src={"/vasto.svg"} width={50} height={50} alt=''></Image> ?</h5>
             </div>
             <div>
                 <div> <p>B2B platform supplying F&V to regional supermarkets</p> </div>
