@@ -2,9 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Vilaage';
+  src: url('/fonts/Vilaage_Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('/fonts/MyriadPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Si tienes otras variantes de la fuente (negrita, cursiva, etc.), también puedes agregarlas */
+@font-face {
+  font-family: 'NeuroMedium';
+  src: url('/fonts/Neuro-Medium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DentonCondensed';
+  src: url('/fonts/DentonCondensed.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: #3498db;
+  --color-secondary: #2ecc71;
+  --color-background: #f4f4f4;
+  --color-text: #333333;
+  --color-accent: #e74c3c;
 }
 
 @media (prefers-color-scheme: dark) {
