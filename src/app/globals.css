@@ -32,11 +32,13 @@
 }
 
 :root {
-  --color-primary: #3498db;
-  --color-secondary: #2ecc71;
-  --color-background: #f4f4f4;
-  --color-text: #333333;
-  --color-accent: #e74c3c;
+  --vasto-brownland: #261D1B;
+  --vasto-tomatoe: #D23727;
+  --vasto-white: #FBF9F3;
+  --vasto-skyblue: #82AED6;
+  --vasto-greenfield: #143517;
+  --vasto-sand: #CAC48F;
+  --vasto-sandlight: #E0E0B9;
 }
 
 @media (prefers-color-scheme: dark) {
