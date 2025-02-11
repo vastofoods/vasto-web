@@ -1,0 +1,37 @@
+.container{
+    width: 100vw;
+    height: 800px;
+    background-color: var(--vasto-greenfield);
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerTitle{
+    margin-bottom: 50px;
+    margin-top: 50px
+}
+
+.title{
+    font-family: "vilaage", normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--vasto-sandlight);
+    text-align: center;
+}
+
+.pharagraph{
+    font-family: "vilaage", normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--vasto-sandlight);
+    text-align: center;
+}
+
+.containerInputsForm{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas del mismo tamaño */
+  gap: 16px; /* Espacio entre los inputs */
+  max-width: 600px; /* Ajusta el ancho máximo según tu diseño */
+  margin: auto; /* Centrar si es necesario */
+}
