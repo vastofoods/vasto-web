@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
       <div className={styles.container} >
         <div>
-          <Image src={"/img/vastoRsandLight.png"} width={74} height={16} alt=''></Image>
+          <Image src={"/img/vastoRsandLight.png"} width={74} height={16} alt='logoVastoRegistrado'></Image>
         </div>
         <div className={styles.containerLinks}>
           <Link href={'./'}>Home</Link>

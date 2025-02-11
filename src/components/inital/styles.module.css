@@ -1,7 +1,29 @@
 .container{
-    width: 50vw;
-    height: 200px;
-    background-color: blue;
-    font-size: 100px;
-    font-family: "Vilaage", sans-serif;
+    width: 100vw;
+    height: 700px;
+    z-index: -1;
+}
+
+.containerTitle{
+    width: 90vw;
+    height: 600px;
+    margin: 36px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.titletag{
+    font-family: 'NeuroMedium';
+    font-size: 80px;
+    color: var(--vasto-sandlight);
+    line-height: 100px;
+}
+
+.paragraphtag{
+    font-family: 'MyriadPro';
+    font-size: 20px;
+    color: var(--vasto-sandlight);
 }
