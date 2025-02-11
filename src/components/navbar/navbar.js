@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Navbar() {
     return (
       <div className={styles.container} >
-        <div className={styles.containerLogo}>
+        <div>
           <Image src={"/img/vastoRsandLight.png"} width={74} height={16} alt=''></Image>
         </div>
         <div className={styles.containerLinks}>

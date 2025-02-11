@@ -20,6 +20,8 @@
     justify-content: space-around;
     gap: 10px;
     color: var(--vasto-sandlight);
+    font-family: 'MyriadPro';
+    font-size: 18px;
 }
 
 .containerButton{
@@ -28,4 +30,5 @@
     color: var(--vasto-greenfield);
     padding: 14px 21px;
     border-radius: 15px;
+    font-family: 'NeuroMedium';
 }
