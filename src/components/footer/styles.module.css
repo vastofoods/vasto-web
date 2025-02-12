@@ -1,5 +1,9 @@
 .container{
     width: 100vw;
-    height: 500px;
+    height: 480px;
     background-color: var(--vasto-white);
+}
+
+.containerText{
+    font-family: 'NeuroMedium';
 }

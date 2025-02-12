@@ -1,10 +1,10 @@
 import styles from './styles.module.css'
-import Image from 'next/image';
+
 export default function Footer() {
-    return (
-      <div className={styles.container}>
-        ver
-      </div>
-    );
-  }
-  
+  const text = "* VASTO QUALITY ";
+  const repetitions = 7;
+  return (
+  <p className='containerText'>{text.repeat(repetitions)}
+  </p>
+  )
+}
