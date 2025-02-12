@@ -4,9 +4,10 @@
 
 @font-face {
   font-family: 'Vilaage';
-  src: url('/fonts/Vilaage_Regular.ttf') format('opentype');
+  src: url('/fonts/Vilaage_Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-weight: 500;
 }
 
 @font-face {

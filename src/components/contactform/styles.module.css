@@ -13,8 +13,8 @@
 }
 
 .title{
-    font-family: "vilaage", normal;
-    font-weight: 700;
+    font-family: "Vilaage", normal;
+    font-weight: 500;
     font-size: 60px;
     color: var(--vasto-sandlight);
     text-align: center;
@@ -22,16 +22,30 @@
 
 .pharagraph{
     font-family: "vilaage", normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 20px;
     color: var(--vasto-sandlight);
     text-align: center;
+}
+
+.button{
+    font-family: "vilaage", normal;
+    color: var(--vasto-sandlight);
+    width: 120px;
+    height: 40px;
+    border: 2px solid var(--vasto-sandlight);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.containerButton{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .containerInputsForm{
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Dos columnas del mismo tamaño */
   gap: 16px; /* Espacio entre los inputs */
-  max-width: 600px; /* Ajusta el ancho máximo según tu diseño */
   margin: auto; /* Centrar si es necesario */
 }
