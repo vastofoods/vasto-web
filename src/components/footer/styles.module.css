@@ -5,5 +5,23 @@
 }
 
 .containerText{
+    margin: 50px 15px;
+    width: 100vw;
     font-family: 'NeuroMedium';
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.containerBrandsMotto{
+    font-family: 'DentonCondensed';
+    font-size: 24px;
+    margin: 20px 0 50px 0;
 }
