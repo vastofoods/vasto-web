@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import Image from 'next/image';
-import {InstagramLogo, LinkedinLogo} from 'phosphor-react';
+import {InstagramLogo, LinkedinLogo} from '@phosphor-icons/react';
 
 export default function Footer() {
   const text = "* VASTO QUALITY ";
