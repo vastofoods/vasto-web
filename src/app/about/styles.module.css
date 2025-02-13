@@ -10,7 +10,7 @@
 }
 
 .containerImg{
-    opacity: 20%;
+    opacity: 10%;
     position: absolute;
 
 }
@@ -18,7 +18,7 @@
 .containerParagraphText{
     font-family: 'DentonCondensed';
     font-size: 70px;
-    color: var(--vasto-greenfield);
+    color: var(--vasto-sand);
     text-align: center;
 }
 
