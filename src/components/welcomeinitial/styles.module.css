@@ -1,0 +1,11 @@
+.container{
+    width: 100vw;
+    height: 400px;
+    background-color: var(--vasto-white);
+    font-family: 'MyriadPro';
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

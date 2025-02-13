@@ -8,15 +8,16 @@
     /*le falta scroll infinito animacion*/
     margin: 0 15px;
     padding: 30px 0;
-    width: 100vw;
+    width: 90vw;
     font-family: 'NeuroMedium';
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 2px;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 10%;
     white-space: nowrap;
     overflow: hidden;
 }
