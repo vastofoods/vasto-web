@@ -21,10 +21,10 @@ export default function Footer() {
       <div className={styles.contactDetails}><MapPinLine size={32} /><p className={styles.contactText}>San Pedro Garza Garcia, NL, 66256</p></div>
       </div>
       <div className={styles.containerIcons}>
-      <Link href={'.7'}><LinkedinLogo size={32} /></Link>
-      <Link href={'.7'}><InstagramLogo size={32} /></Link>
+      <Link href={''}><LinkedinLogo size={32} /></Link>
+      <Link href={''}><InstagramLogo size={32} /></Link>
       </div>
-      <p className={styles.containerCopy}>@VASTO FOODS 2025 - copyright florpastudio</p>
+      <p className={styles.containerCopy}>copyright fs</p>
     </div>
   </div>
   )
