@@ -1,0 +1,36 @@
+.container{
+    background-color: var(--vasto-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTitle {
+    font-family: 'NeuroMedium';
+    font-size: 48px;
+    color: var(--vasto-greenfield);
+}
+
+.containerCards{
+    width: 100vw;
+    margin: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.containerTitleCard{
+    font-family: 'NeuroMedium';
+    text-align: center;
+    font-size: 30px;
+}
+
+.containerText{
+    font-family: 'MyriadPro';
+    font-size: 18px;
+    color: var(--vasto-brownland);
+    text-align: center;
+}
