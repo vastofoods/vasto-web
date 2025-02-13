@@ -1,6 +1,24 @@
 .container{
-   width: 100vw;
-   height: 60vh;
-   text-align: center;
-   font-size: 100px;
+    width: 100vw;
+    height: 500px;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
+
+.containerImg{
+    opacity: 20%;
+    position: absolute;
+
+}
+
+.containerParagraphText{
+    font-family: 'DentonCondensed';
+    font-size: 70px;
+    color: var(--vasto-greenfield);
+    text-align: center;
+}
+
