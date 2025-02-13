@@ -44,7 +44,7 @@
 }
 
 .containerInputsForm{
-  display: grid;
+    display: grid;
   grid-template-columns: repeat(2, 1fr); /* Dos columnas del mismo tamaño */
   gap: 16px; /* Espacio entre los inputs */
   margin: auto; /* Centrar si es necesario */

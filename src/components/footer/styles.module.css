@@ -5,23 +5,54 @@
 }
 
 .containerText{
-    margin: 50px 15px;
+    /*le falta scroll infinito animacion*/
+    margin: 0 15px;
+    padding: 30px 0;
     width: 100vw;
     font-family: 'NeuroMedium';
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 100;
     letter-spacing: 2px;
     text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.containerLogoredes{
+    margin: 24px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 .containerBrandsMotto{
     font-family: 'DentonCondensed';
     font-size: 24px;
-    margin: 20px 0 50px 0;
+    margin: 20px 0 30px 0;
+}
+
+.contactDetails{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    color: var(--vasto-greenfield);
+}
+
+.contactText{
+    font-family: 'MyriadPro';
+    font-size: 16px;
+}
+
+.containerIcons{
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    color: var(--vasto-greenfield);
 }
