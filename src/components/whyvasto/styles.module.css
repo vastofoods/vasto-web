@@ -5,7 +5,7 @@
     width: 100vw;
     height: 600px;
     background-color: var(--vasto-white);
-    color: black;
+    color: var(--vasto-brownland);
 }
 .textContainer{
     display: flex;

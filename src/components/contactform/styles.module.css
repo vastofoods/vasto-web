@@ -21,7 +21,7 @@
 }
 
 .pharagraph{
-    font-family: "vilaage", normal;
+    font-family: 'MyriadPro', normal;
     font-weight: 200;
     font-size: 20px;
     color: var(--vasto-sandlight);
@@ -31,8 +31,8 @@
 .button{
     font-family: "vilaage", normal;
     color: var(--vasto-sandlight);
-    width: 120px;
-    height: 40px;
+    width: 200px;
+    height: 60px;
     border: 2px solid var(--vasto-sandlight);
     border-radius: 10px;
     margin-right: 10px;
@@ -45,7 +45,7 @@
 
 .containerInputsForm{
     display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Dos columnas del mismo tamaño */
-  gap: 16px; /* Espacio entre los inputs */
-  margin: auto; /* Centrar si es necesario */
+   grid-template-columns: repeat(2, 1fr); /* Dos columnas del mismo tamaño */
+   gap: 16px;/* Espacio entre los inputs */
+   margin: auto; /* Centrar si es necesario */
 }
