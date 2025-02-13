@@ -1,5 +1,6 @@
 import styles from './styles.module.css'
 import Image from 'next/image';
+import CardsComponent from '@/components/aboutcards/cards';
 
 export default function About() {
   return (
@@ -8,6 +9,7 @@ export default function About() {
       <div className={styles.containerParagraph}>
         <p className={styles.containerParagraphText}>Optimizing the fresh produce supply chain from sourcing to sales</p>
       </div>
+        <CardsComponent /> 
     </div>
   );
 }
