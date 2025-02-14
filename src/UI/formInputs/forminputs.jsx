@@ -1,5 +1,5 @@
 import styles from './styles.module.css'
-export function FormInputs({ text, placeholder, type }) {
+export function FormInputs({ text, placeholder, type, id }) {
   return (
     <div className={styles.container}>
       <label className={styles.label} htmlFor="">{text}</label>
@@ -14,7 +14,7 @@ export function FormInputs({ text, placeholder, type }) {
           <option value="option3">Option 3</option>
         </select>
       ) : (
-        <input className={styles.input} type={type} placeholder={placeholder} />
+        <input className={styles.input} type={type} placeholder={placeholder} id={id} />
       )}
     </div>
   );
