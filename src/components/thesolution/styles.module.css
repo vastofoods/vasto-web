@@ -1,4 +1,5 @@
 .container{
+    width: 100vw;
     background-color: var(--vasto-white);
     display: flex;
     flex-direction: column;

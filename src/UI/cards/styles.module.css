@@ -1,0 +1,11 @@
+.container{
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid var(--vasto-greenfield);
+    border-radius: 10px;
+}

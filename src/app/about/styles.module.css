@@ -1,22 +1,10 @@
-.container{
-    width: 100vw;
-    height: 500px;
-    padding: 100px;
+.containerTitle{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    font-family: 'NeuroMedium';
+    font-size: 38px;
+    color: var(--vasto-greenfield);
+    background-color: var(--vasto-white);
 }
 
-.containerImg{
-    opacity: 10%;
-    position: absolute;
-}
-
-.containerParagraphText{
-    font-family: 'DentonCondensed';
-    font-size: 70px;
-    color: var(--vasto-sand);
-    text-align: center;
-}

@@ -6,14 +6,19 @@ export default function About() {
   return (
     <>
       <div className={styles.container}>
-        <Image className={styles.containerImg} src={'/img/footerLogo.png'} width={800} height={800} alt='logo de vasto foods'></Image>
         <div className={styles.containerParagraph}>
           <p className={styles.containerParagraphText}>Optimizing the fresh produce supply chain from sourcing to sales</p>
         </div>
       </div>
+      <div className={styles.containerTitle}>
+            <h2>OUR TEAM</h2>
+        </div>
       <div>
             <CardsComponent />
       </div>
+      {/* <div className={styles.containerSubtitle}>
+            <h2>Consultants</h2>
+        </div> */}
     </>
   );
 }
