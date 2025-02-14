@@ -29,4 +29,3 @@ export function FormTextArea({text, placeholder}) {
     );
   }
 
-export { FormInputs, FormTextArea }
