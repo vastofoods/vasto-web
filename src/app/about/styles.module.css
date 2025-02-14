@@ -3,16 +3,15 @@
     height: 500px;
     padding: 100px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .containerImg{
     opacity: 10%;
     position: absolute;
-
 }
 
 .containerParagraphText{
@@ -21,4 +20,3 @@
     color: var(--vasto-sand);
     text-align: center;
 }
-

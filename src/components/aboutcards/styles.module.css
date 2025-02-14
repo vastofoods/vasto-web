@@ -1,0 +1,25 @@
+.container{
+    width: 100vw;
+    height: 500px;
+    margin: 100px 0;
+}
+
+.containerTitle{
+    font-family: 'NeuroMedium';
+    font-size: 48px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--vasto-greenfield);
+}
+
+.containerCards{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
